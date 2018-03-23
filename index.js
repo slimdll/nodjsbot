@@ -1,6 +1,6 @@
 const TeleBot = require('telebot')
 
-const TOKEN = '578928758:AAEoZcWFG1hxziFVheAQKCleSZuD9Z0afA
+const TOKEN = '578928758:AAEoZcWFG1hxziFVheAQKCleSZuD9Z0afA'
 
 let token = process.argv.length > 2 ? process.argv[2] : undefined 
 
