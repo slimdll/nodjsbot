@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url" : "git + https: //github.com/slimdll/nodjsbot.git"
+    "url": "git+https://github.com/slimdll/node-telegram-bot.git"
   },
   "keywords": [
     "telegram",
@@ -21,7 +21,7 @@
     "url": "https://github.com/devgar/node-telegram-bot/issues"
   },
   "homepage": "https://github.com/devgar/node-telegram-bot#readme",
-  "dependenc
-
+  "dependencies": {
+    «telegrambot » : « ^ 1.2.3 "
   
 }
