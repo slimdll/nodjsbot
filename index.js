@@ -4,13 +4,6 @@ const bot = new TelegramBot('TOKEN', { polling: true})
   
 
 bot.on(['message', msg => {
-  bot.sendMessage(msg.chat.Id, 'Hello Heroku,')
+  bot.sendMessage(msg.chat.Id, 'Hello Heroku, bot says: "Hi, $(msg.from.first_name')
 })
 
-bot.on(['/add', '/anclar'], require('./lib/cmd_add')(bot) )
-
-bot.on(['/title', '/titulo'], (msg) => {
-  
-})
-
-bot.start()
