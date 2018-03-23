@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/slimdll/node-telegram-bot.git"
+    "url" : "git + https: //github.com/slimdll/nodjsbot.git"
   },
   "keywords": [
     "telegram",
