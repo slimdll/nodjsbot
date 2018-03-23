@@ -1,6 +1,5 @@
-const TeleBot = require('telebot')
-
-const  TOKEN  = '537949933: AAGcSvlIr49Ikr0TS0POL3hvyn34scVqHZ4'
+const  TelegramBot  =  require ( 'node-telegram-bot-api' )
+const   TOKEN   =  '537949933: AAGcSvlIr49Ikr0TS0POL3hvyn34scVqHZ4'
 
 let token = process.argv.length > 2 ? process.argv[2] : undefined 
 
@@ -17,7 +16,7 @@ if(!token) {
   }
 }
 
-const bot = new TeleBot({
+const bot = new TelegramBot({
   token: token,
   polling: {limit: 50}
 })
