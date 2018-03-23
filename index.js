@@ -1,21 +1,5 @@
 const  TelegramBot  =  require ( 'node-telegram-bot-api' )
-const   TOKEN   =  '537949933: AAGcSvlIr49Ikr0TS0POL3hvyn34scVqHZ4'
-
-let token = process.argv.length > 2 ? process.argv[2] : undefined 
-
-if(!token) {
-  try{
-    const fs = require('fs')
-    token = fs.readFileSync("token.txt", 'utf8')
-    token = token.replace('\n', '')
-  } catch(e) {
-    if(e.code == 'ENOENT')
-      console.log("  Error: token.txt not found")
-    else console.log(e)
-    process.exit(1)
-  }
-}
-
+const TOKEN = '537949933:AAGcSvlIr49Ikr0TS0POL3hvyn34scVqHZ4'
 const bot = new TelegramBot({
   token: token,
   polling: {limit: 50}
