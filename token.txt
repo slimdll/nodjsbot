@@ -1,1 +1,1 @@
-const TOKEN = '537949933:AAGcSvlIr49Ikr0TS0POL3hvyn34scVqHZ4'
+const TOKEN = '529348970:AAFe1xIkfLObyiimeLAqugep90eX3kii66U'
